@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cronometro {
+    background-color: black;
+    position: relative;
+    color: white;
+    display: flex;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    justify-content: space-around;
+    border: 3px solid orange;
+}
+
+.cronometro div {
+    display: inline-block;
+    flex-direction: column;
+    font-size: 70px;
+    align-items: center;
+    justify-content: center;
+    color: orange;
+    margin: 30px
+}
+
+.botoes {
+    position: fixed;
+    margin-top: 280px;
+}
+
+button {
+    width: 90px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.iniciar {
+    background-color: green;
+}
+
+.iniciar:hover {
+    background-color: #006400;
+}
+
+.pausar {
+    background-color: yellow;
+}
+
+.pausar:hover {
+    background-color: #FFD700;
+}
+
+.zerar {
+    background-color: red;
+}
+
+.zerar:hover {
+    background-color: #8B0000;
+}
+
+
+
+
+
+
+
+
+
